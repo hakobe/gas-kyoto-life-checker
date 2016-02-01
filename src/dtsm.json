@@ -1,0 +1,26 @@
+{
+  "repos": [
+    {
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "ref": "master"
+    }
+  ],
+  "path": "typings",
+  "bundle": "typings/bundle.d.ts",
+  "link": {
+    "npm": {
+      "include": true
+    }
+  },
+  "dependencies": {
+    "google-apps-script/google-apps-script.spreadsheet.d.ts": {
+      "ref": "5d0f2126c8dac8fce0ff020218aea06607213b0d"
+    },
+    "google-apps-script/google-apps-script.url-fetch.d.ts": {
+      "ref": "5d0f2126c8dac8fce0ff020218aea06607213b0d"
+    },
+    "google-apps-script/google-apps-script.mail.d.ts": {
+      "ref": "3d2f9971a107e2eee2de3ec5318f5c54071e16ed"
+    }
+  }
+}
